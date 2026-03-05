@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-lambda" %}
-{% set version = "3.2.0" %}
+{% set version = "3.2.1" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4fd9b91615e54f088f44b34e4f8a90fe762dc408c9a2b8e93eec5c40c7a62bb6
+  sha256: ef7f218198e79d988450e30f2b8f4e9baf8f72867a36a7a04b5e6728c01e08ee
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
