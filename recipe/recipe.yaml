@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.8.0"
+  version: "3.9.0"
 
 package:
   name: types-aiobotocore-lambda
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-lambda/types_aiobotocore_lambda-${{ version }}.tar.gz
-  sha256: eef2cb81686c38ca0f71632c3ce1ae7728ecd1fd70575487e00f53da19f5663a
+  sha256: b93a464e46818194642c3c9befddebb32907ef98d8d6bd3de3533c39df15a890
 
 build:
   number: 0
